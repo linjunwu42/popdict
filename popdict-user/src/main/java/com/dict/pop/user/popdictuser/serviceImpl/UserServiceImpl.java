@@ -38,7 +38,6 @@ public class UserServiceImpl implements UserService {
         user.setPassword(password);
         user.setPrikey("933977723");
         try {
-
             flag = userMapper.insertUsers(user);
         }catch (Exception e){
             return false;
