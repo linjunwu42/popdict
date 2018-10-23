@@ -1,5 +1,4 @@
 package com.dict.pop.user.popdictuser.serviceImpl;
 
-public class Accc {
-
+public class DD {
 }
