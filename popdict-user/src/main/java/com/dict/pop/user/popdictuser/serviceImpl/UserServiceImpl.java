@@ -18,7 +18,7 @@ public class UserServiceImpl implements UserService {
         User user = new User();
         user.setName(name);
         user.setPassword(password);
-        user.setPrikey("930009");
+        user.setPrikey("930999999");
         try {
             flag = userMapper.insertUsers(user);
         }catch (Exception e){
